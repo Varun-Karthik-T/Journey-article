@@ -6,7 +6,7 @@ const { Client } = pg;
 async function dbconnect() {
   // Azure PostgreSQL connection string
   const username = 'VarunKarthik';
-  const password = 'CBEtoCEG#13';
+  const password = '';// password to the db
   const host = 'journey.postgres.database.azure.com';
   const port = 5432;
   const databaseName = 'srv';
